@@ -4,7 +4,8 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('HomeView');
+		$data['navBar'] = view('Components/navbar');
+		return view('HomeView', $data);
 	}
 
 	//--------------------------------------------------------------------
