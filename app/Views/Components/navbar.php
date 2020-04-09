@@ -8,14 +8,14 @@
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
     <ul class="navbar-nav ">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item <?= !get_first_segment() ? 'active' : ''?>">
+        <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
       </li>
       <?php
         foreach(lang("titles.navBarList") as $section => $longName){
       ?>
-          <li class="nav-item">
-            <a class="nav-link" href="#" title="<?=$longName?>"><?=$section?></a>
+          <li class="nav-item <?= ($section == get_first_segment()) ? 'active' : ''?>">
+            <a class="nav-link" href="<?=$section?>" title="<?=$longName?>"><?=$section?></a>
           </li>
       <?php
         }

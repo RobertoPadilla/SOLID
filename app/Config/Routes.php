@@ -31,6 +31,11 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/Single', 'SingleController::index');
+$routes->get('/Open-Closed', 'OpenClosedController::index');
+$routes->get('/Liskov', 'LiskovController::index');
+$routes->get('/Interface', 'InterfaceController::index');
+$routes->get('/Dependency', 'DependencyController::index');
 
 /**
  * --------------------------------------------------------------------
