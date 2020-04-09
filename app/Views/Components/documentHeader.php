@@ -17,8 +17,12 @@
   <!-- GOOGLE FONT -->
   <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
 
+  <!-- ICON FONT -->
+  <link rel="stylesheet" href="/css/font/fontello.css">
+
   <!-- GENERAL -->
   <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/codeStyle.css">
 
 
   

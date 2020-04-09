@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'mixins';
+
+.code-title{
+  color: $codeTitle;
+}
+.code-purple{
+  @include codeFont($codePurple);
+}
+.code-yellow{
+  @include codeFont($codeYellow);
+}
+.code-orange{
+  @include codeFont($codeOrange);
+}
+.code-gray{
+  @include codeFont($codeGray);
+}
+.code-blue{
+  @include codeFont($codeBlue);
+}
+.code-pink{
+  @include codeFont($codePink);
+}
+
+@for $i from 0 through 5 {
+  .indent-#{$i} { padding-left:  10px * $i; }
+}

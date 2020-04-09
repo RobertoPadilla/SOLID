@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0D0D0D;">
 <a class="navbar-brand" href="/">
     <img src="/Images/logos/dojo-icon.svg" width="30" height="30" class="d-inline-block align-top" alt="">
     <?= lang("titles.Home")?>
